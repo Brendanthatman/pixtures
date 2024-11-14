@@ -14,15 +14,13 @@ nav ul {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
-    text-align: center;
 }
 
 nav ul li {
-    list-style-type: none;
-    border-right: 1px solid red;
     justify-content: center;
     text-align: center;
-    flex: 1;
+    list-style-type: none;
+    border-right: 1px solid red;
     font-size: 25px;
 }
 
