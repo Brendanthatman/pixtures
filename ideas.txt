@@ -1,0 +1,2 @@
+1. change search to about for this project purposes
+2. responsive content: have two wide pics on desktop, single mobile; navbar goes below logo on mobile
