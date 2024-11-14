@@ -23,6 +23,11 @@ nav ul li {
     justify-content: center;
     text-align: center;
     flex: 1;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 .header_img {
@@ -30,7 +35,11 @@ nav ul li {
 }
 
 #main_logo {
-    width: 80px;
+    width: 100px;
+}
+
+#pfp {
+    border-right: none;
 }
 
 h1 {
