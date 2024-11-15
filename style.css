@@ -12,16 +12,12 @@ header {
 
 nav ul {
     display: flex;
-    gap: 1.5rem;
     justify-content: center;
     align-items: center;
 }
 
 nav ul li {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding-right: 20px;
+    padding: 0 1.5rem;
     list-style-type: none;
     border-right: 1px solid red;
     font-size: 30px;
