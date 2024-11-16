@@ -41,10 +41,28 @@ nav ul li a {
 
 h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 #welcome_home {
     text-align: center;
+    font-size: 25px;
+}
+
+.home_text {
+    margin-bottom: 60px;
+}
+
+.below_post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.post_pfp {
+    width: 32px;
 }
 
 .home_screen_post_img {
