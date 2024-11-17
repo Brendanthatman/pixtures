@@ -19,8 +19,8 @@ nav ul {
 nav ul li {
     padding: 0 1.5rem;
     list-style-type: none;
-    border-right: 1px solid red;
-    font-size: 30px;
+    border-right: 1px solid #040f16;
+    font-size: 25px;
 }
 
 nav ul li a {
@@ -70,4 +70,39 @@ h1 {
     margin: auto;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 10px;
+}
+
+.home_post {
+    border: 2px solid #809848;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px; 
+}
+
+@media screen and (min-width: 1486px){
+    .home_posts {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 1485px){
+    .home_posts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+a:link {
+    color: #040f16;
+}
+
+a:active {
+    color: #5c80bc;
+}
+
+a:visited {
+    color: #040f16;
 }
