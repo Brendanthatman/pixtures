@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 20px;
     padding: 20px;
+    background-color: #f7f4f3;
 }
 
 header {
@@ -119,6 +120,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0; 
+    background-color: #f7f4f3; 
 }
 
 .rate_and_pfp {
@@ -147,7 +152,21 @@ h1 {
 
 .writing_and_tags {
     display: flex;
-    
+}
+
+.writing {
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.tags {
+    padding-right: 20px;
+    color: #da4167;
+}
+
+.post_title {
+    font-size: 35px;
+    padding-right: 20px;
 }
 
 /*Responsive design*/
