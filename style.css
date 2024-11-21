@@ -169,6 +169,37 @@ h1 {
     padding-right: 20px;
 }
 
+/*User Profile Page*/
+
+#user_profile_pic_user_profile_page {
+    width: 300px;
+    padding-top: 15px;
+}
+
+.user_profile_info {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#featured_image_user_profile {
+    border: 2px solid #809848;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#text_user_profile_page {
+    margin-left: 20px;
+}
+
+.user_profile_featured {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
 /*Responsive design*/
 
 @media screen and (min-width: 1400px){
@@ -183,6 +214,15 @@ h1 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    #user_profile_pic_user_profile_page {
+        width: 150px;
+    }
+    .user_profile_info {
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
     }
 }
 
