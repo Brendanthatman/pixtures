@@ -151,6 +151,7 @@ h1 {
     background-color: #5c80bc;
     padding: 7px 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .writing_and_tags {
