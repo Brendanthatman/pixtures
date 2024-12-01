@@ -259,7 +259,16 @@ h1 {
 
     .back_text {
         font-size: 10px;
-        padding-right: 4px;
+        padding-right: 9px;
+    }
+
+    .below_focus_post {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .writing_and_tags {
+        flex-direction: column;
     }
 }
 
