@@ -265,6 +265,7 @@ h1 {
     .below_focus_post {
         flex-direction: column;
         justify-content: center;
+        border-bottom: 1px solid #809848;
     }
 
     .writing_and_tags {
