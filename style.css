@@ -270,6 +270,22 @@ h1 {
 
     .writing_and_tags {
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .post_title {
+        padding-left: 35px;
+    }
+
+    .rate_and_pfp {
+        padding: none;
+    }
+
+    .writing {
+        padding: none;
+        justify-content: center;
+        text-align: center;
     }
 }
 
